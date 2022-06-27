@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="details.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/88ba240026.js" crossorigin="anonymous"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <section class="container relative">
+        <!-- Header Section -->
+        <!--  -->
+        <header
+            class="bg-[#FFFFFF] flex flex-row justify-start shadow-lg w-content h-[106px] sm:justify-center md:justify-start lg:h-[100px] 2xl:justify-center">
+            <!-- Three Bar Icon -->
+            <div class=" mt-9 ml-5 block sm:ml-12 sm:mt-[44px] lg:hidden">
+                <i class="fas fa-bars text-[22px]"></i>
+            </div>
+            <!-- Logo -->
+            <div class=" ml-3 mt-0 sm:ml-2 lg:ml-7 xl:ml-32 s-375">
+                <a href="#">
+                    <img src="img/logo-2x-1.png" alt=""
+                        class="max-w-[225px] mt-[34px] ml-[0px] h-[25px] sm:h-[40px] lg:h-[40px] lg:w-[202px] lg:mt-[25px] ">
+                </a>
+            </div>
+            <!-- Menu -->
+            <div class=" ml-3 w-auto my-auto hidden lg:block xl:ml-16">
+                <ul class="flex flex-row w-[570px] font-semibold text-[#525252] tracking-tighter justify-start gap-5">
+                    <li class="group">
+                        <a href="#" class="focus:text-[#2d53fe] hover:text-[#2d53fe]">Home&nbsp;<i
+                                class="fa-solid fa-angle-down text-xs"></i></a>
+                        <div
+                            class="shadow-2xl border-2 w-80 h-auto hide -ml-12 mt-1 hidden group-hover:block absolute z-20">
+                            <ul class="flex flex-col gap-3 text-left pl-7 mt-5 bg-white">
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="group">
+                        <a href="#" class="focus:text-[#2d53fe] hover:text-[#2d53fe]">Features&nbsp;<i
+                                class="fa-solid fa-angle-down text-xs"></i></a>
+                        <div class="shadow-2xl border-2 w-80 h-auto -ml-12 mt-1 hidden group-hover:block absolute z-20">
+                            <ul class="flex flex-col gap-3 text-left pl-7 mt-5 bg-white">
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="group">
+                        <a href="#" class="focus:text-[#2d53fe] hover:text-[#2d53fe]">Marketing&nbsp;<i
+                                class="fa-solid fa-angle-down text-xs"></i></a>
+                        <div class="absolute w-full left-0 hidden group-hover:block">
+                            <div class="grid grid-cols-5 gap-5 mt-2.5 bg-white shadow-2xl px-10 border-2 py-16 mx-14">
+                                <div class="shadow 2xl    flex flex-row justify-evenly">
+
+                                    <div class="w-[250px] mx-5 h-auto">
+                                        <img src="img/samuel-zeller-356338-unsplash-270x180.jpg" alt=""
+                                            class="shadow-xl p-2">
+                                        <h1
+                                            class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                            How to hack your Virtual Reality Life for Max Efficiency!
+                                        </h1>
+                                        <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                            <p class="mr-2">AUG 14 2018</p>
+                                            <p>-</p>
+                                            <p class="ml-2">5 Mins Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow 2xl      flex flex-row justify-evenly">
+                                    <div class="w-[250px] mx-5 h-auto">
+                                        <img src="img/shutterstock_1033175749-270x180.jpg" alt="" class="shadow-xl p-2">
+                                        <h1
+                                            class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                            How to hack your Virtual Reality Life for Max Efficiency!
+                                        </h1>
+                                        <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                            <p class="mr-2">AUG 14 2018</p>
+                                            <p>-</p>
+                                            <p class="ml-2">5 Mins Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow 2xl     flex flex-row justify-evenly">
+                                    <div class="w-[250px] mx-5 h-auto">
+                                        <img src="img/shutterstock_1067009249-270x180.jpg" alt="" class="shadow-xl p-2">
+                                        <h1
+                                            class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                            How to hack your Virtual Reality Life for Max Efficiency!
+                                        </h1>
+                                        <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                            <p class="mr-2">AUG 14 2018</p>
+                                            <p>-</p>
+                                            <p class="ml-2">5 Mins Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow 2xl    flex flex-row justify-evenly">
+                                    <div class="w-[250px] mx-5 h-auto">
+                                        <img src="img/shutterstock_1113405587-270x180.jpg" alt="" class="shadow-xl p-2">
+                                        <h1
+                                            class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                            How to hack your Virtual Reality Life for Max Efficiency!
+                                        </h1>
+                                        <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                            <p class="mr-2">AUG 14 2018</p>
+                                            <p>-</p>
+                                            <p class="ml-2">5 Mins Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow 2xl      flex flex-row justify-evenly">
+                                    <div class="w-[250px] mx-5 h-auto">
+                                        <img src="img/shutterstock_236844463-270x180.jpg" alt="" class="shadow-xl p-2">
+                                        <h1
+                                            class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                            How to hack your Virtual Reality Life for Max Efficiency!
+                                        </h1>
+                                        <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                            <p class="mr-2">AUG 14 2018</p>
+                                            <p>-</p>
+                                            <p class="ml-2">5 Mins Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="group">
+                        <a href="#" class="focus:text-[#2d53fe]">Gadgets&nbsp;<i
+                                class="fa-solid fa-angle-down text-xs"></i></a>
+                        <div class="absolute w-full left-0 text-black hidden group-hover:block">
+                            <div
+                                class="grid grid-cols-5 gap-5 mt-2.5 bg-white shadow-2xl px-10 border-2 py-16 mx-14 h-[380px]">
+                                <div class="-ml-3 border-r-2">
+                                    <ul class="flex flex-col gap-3 -mt-4">
+                                        <li><a href="#">Business</a></li>
+                                        <li><a href="#">Marketing</a></li>
+                                        <li><a href="#">Trends</a></li>
+                                        <li><a href="#">View All</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-yellow-200 h-[130px]">
+                                    <img src="img/samuel-zeller-356338-unsplash-270x180.jpg" alt="">
+                                    <h1
+                                        class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                        How to hack your Virtual Reality Life for Max Efficiency!></h1>
+                                    <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                        <p class="mr-2">AUG 14 2018</p>
+                                        <p>-</p>
+                                        <p class="ml-2">5 Mins Read</p>
+                                    </div>
+                                </div>
+                                <div class="bg-yellow-200 h-[130px]">
+                                    <img src="img/shutterstock_1033175749-270x180.jpg" alt="">
+                                    <h1
+                                        class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                        How to hack your Virtual Reality Life for Max Efficiency!></h1>
+                                    <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                        <p class="mr-2">AUG 14 2018</p>
+                                        <p>-</p>
+                                        <p class="ml-2">5 Mins Read</p>
+                                    </div>
+                                </div>
+                                <div class="bg-yellow-200 h-[130px]">
+                                    <img src="img/shutterstock_1067009249-270x180.jpg" alt="">
+                                    <h1
+                                        class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                        How to hack your Virtual Reality Life for Max Efficiency!></h1>
+                                    <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                        <p class="mr-2">AUG 14 2018</p>
+                                        <p>-</p>
+                                        <p class="ml-2">5 Mins Read</p>
+                                    </div>
+                                </div>
+                                <div class="bg-yellow-200 h-[130px]">
+                                    <img src="img/shutterstock_1113405587-270x180.jpg" alt="">
+                                    <h1
+                                        class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                        How to hack your Virtual Reality Life for Max Efficiency!></h1>
+                                    <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                        <p class="mr-2">AUG 14 2018</p>
+                                        <p>-</p>
+                                        <p class="ml-2">5 Mins Read</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#" class="focus:text-[#2d53fe] hover:text-[#2d53fe]">Buy Theme&nbsp;<i
+                                class="fa-solid fa-angle-down text-xs"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!-- Social Icon Section -->
+            <div class="w-[100px] ml-[265px] my-auto hidden sm:block sm:ml-auto 2xl:ml-32">
+                <ul class="flex gap-4 text-base justify-center">
+                    <li class="hover:text-blue-500"><i class="fab fa-facebook-f lg:text-[19px]"></i></li>
+                    <li class="hover:text-blue-500"><i class="fa-brands fa-twitter lg:text-[19px]"></i></li>
+                    <li class="hover:text-blue-500"><i class="fa-brands fa-instagram lg:text-[19px]"></i></li>
+                </ul>
+            </div>
+
+            <!-- Search Section -->
+            <div class="my-auto mr-3 border-l-2 border-gray-300 ml-auto mr-8 sm:ml-2 md:ml-4 md:mr-5">
+                <button class="">
+                    <i class="fa-solid fa-magnifying-glass ml-3 lg:text-[19px]"></i>
+                </button>
+            </div>
+
+        </header>
+
+        <!-- This div contains indexed background image -->
+        <section class="bg-black h-auto w-screen">
+            <img src="img/Wallions281109-1024x683.jpg" alt=""
+                class="w-content bg-center bg-no-repeat bg-cover fixed -z-20 scale-150 brightness-75 md:scale-100 md:h-[400px] md:w-screen lg:h-auto lg:object-scale-down xl:object-cover">
+        </section>
+
+        <!-- Gadgets button and Header section -->
+        <section class="w-content h-[300px] flex flex-col text-white md:mb-24 lg:mt-36 xl:mt-64 ">
+            <div class="mx-auto mt-10">
+                <a href="#">
+                    <button
+                        class="font-bold text-xs bg-black px-2 py-2 rounded-sm tracking-wider w-auto md:mt-14 md:px-2 md:py-1 md:tracking-widest">GADGETS</button>
+                </a>
+            </div>
+            <h1 class="font-bold px-5 text-center mt-2 text-xl md:text-4xl md:px-0 md:mt-7 lg:text-5xl lg:mt-6">
+                3 reasons to get<br class="md:hidden"> excited about a<br class="hidden md:block"> brand<br
+                    class="md:hidden"> new greenhouse</h1>
+            <p class="font-bold px-10 mt-4 text-[12px] text-center lg:mt-7 xl:text-[18px]">BY JAMES DOE - MAY 14 2018 -
+                5 MINS READ</p>
+        </section>
+
+        <!-- Rest part of the page -->
+        <section class="bg-white w-screen h-auto">
+            <div class="md:flex md:flex-row">
+                <!-- Colored Social Icon Section -->
+                <div class="flex flex-row justify-center pt-7 md:flex md:flex-col md:justify-start lg:w-content md:h-full">
+
+                    <div class="flex flex-row md:mx-auto md:flex-col md:gap-5 md:ml-5">
+
+                        <p class="hidden md:block text-[#111] text-sm font-semibold">SHARE</p>
+
+                        <div class="w-10 h-10 rounded-full shadow-2xl bg-white border-2 border-stone-100">
+                            <a href="#"><i
+                                    class="fab fa-facebook-f ml-3 mt-1.5 font-normal text-xl text-sky-700"></i></a>
+                        </div>
+
+                        <div class="w-10 h-10 rounded-full shadow-2xl bg-white border-2 border-stone-100">
+                            <a href="#"><i
+                                    class="fa-brands fa-twitter ml-2.5 mt-1.5 font-normal text-xl text-[#089fc5]"></i></a>
+                        </div>
+
+                        <div class="w-10 h-10 rounded-full shadow-2xl bg-white border-2 border-stone-100">
+                            <a href="#"><i
+                                    class="fab fa-pinterest ml-2 mt-1 font-normal text-xl text-[#ca2128]"></i></a>
+                        </div>
+
+                        <div class="w-10 h-10 rounded-full shadow-2xl bg-white border-2 border-stone-100">
+                            <a href="#"><i class="fa-regular fa-envelope ml-2 mt-1 font-normal text-xl"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Rest part of the page -->
+                <div class="px-3 text-[18px] font-normal text-[rgba(0,0,0,.74)] text-left tracking-normal md:ml-5 lg:w-auto">
+                    <p class="mt-8 md:ml-5 lg:ml-0">
+                        More off this less hello salamander lied porpoise much over tightly circa horse taped so
+                        innocuously outside crud mightily rigorous plot life. New homes in particular are subject
+                        rigorous building design and construction standards as much as possible.
+                    </p>
+
+                    <p class="mt-10 md:ml-5 lg:ml-0">
+                        As you’re tapping, scrolling, and swiping on your phone, you probably <span
+                            class="underline underline-offset-2 decoration decoration-blue-300"><a href="#">don’t give
+                                much thought</a></span> to the fact that your apps are consuming electricity — just that
+                        they’re <em>chipping</em> away at your battery&nbsp;life.
+                    </p>
+
+                    <p class="mt-5 md:mt-8 md:ml-5 lg:ml-0">
+                        It’s engaging. It’s <strong>hopeful</strong>. It pushes the plot forward.
+                    </p>
+
+                    <div class="md:w-content md:px-10">
+                        <p class="text-center mt-8 px-5 text-black text-xl md:text-3xl md:px-0 md:ml-5 lg:ml-0">
+                            Only a quarter of young adults are financially literate. You don’t want to overwhelm them
+                            with terrible advice.
+                        </p>
+                    </div>
+
+                    <div class="text-center mt-2"><cite>John Mcarthy</cite></div>
+
+                    <p class="mt-6 md:ml-5 lg:ml-0">
+                        Before you click away, disappointed that I brought up something as practical and boring as time
+                        management, hear me out. My intent is not to crush your spirits.
+                    </p>
+
+                    <h1 class="text-2xl text-black mt-5 font-bold md:ml-5">Current Mobile Cloud</h1>
+
+                    <p class="mt-5 md:ml-5 lg:ml-0">
+                        The average U.S. iPhone owner uses 1–2 gigabytes of LTE data per month, according to some
+                        studies. That data comes at an energy cost that’s opaque, because we can’t see it directly.
+                    </p>
+
+                    <p class="mt-5 md:ml-5 lg:ml-0">
+                        You can’t look to your peers in the industry, because all they’re going to tell you is that they
+                        are killing it, <em>crushing it</em>, changing the world.
+                    </p>
+
+                    <p class="mt-5 md:ml-5 lg:ml-0">
+                        <strong>Example:</strong>
+                        <span class="underline underline-offset-2 decoration decoration-blue-400"><a href="#">Journey
+                                towards design perfection</a></span>
+                    </p>
+
+                    <img src="img/shutterstock_1098044003-mod-770x515.jpg" alt="" class="pt-10">
+
+                    <p class="text-center px-3 pt-2 text-sm text-[#777] md:ml-5 lg:ml-0">
+                        Business and core management app are for
+                        enterprise.
+                    </p>
+
+                    <p class="mt-10 md:ml-5 lg:ml-0">The truth, of course, is that these people have been lying to you all
+                        along.</p>
+
+                    <p class="mt-10 md:ml-5 lg:ml-0">
+                        A federal government initiated report conducted by the Allen Consulting Group
+                        released in July 2011 proposed, amongst other detail, various <a href="#">standards of
+                            reporting</a> criteria ranging from voluntary to a comprehensive evaluation conducted by
+                        qualified energy rating assessors.
+                    </p>
+
+                    <!-- Happiness Header -->
+                    <div class="w-content h-auto text-center mt-10 pb-5 tracking-widest mr-10">
+                        <p class="text-6xl">... </p>
+                        <br>
+                        <h1 class="text-3xl mt-5 font-[750] text-left text-[#111] -tracking-[1px] md:ml-5 lg:ml-0">The Happiness
+                            Hypothesis</h1>
+                    </div>
+
+                    <p class="md:ml-5 lg:ml-0">
+                        These simple survey measures seem credible. But according to psychologists, happiness and life
+                        satisfaction <span class="underline underline-offset-2 decoration decoration-blue-600"><a
+                                href="#">do not coincide.</a></span> Life satisfaction has a cognitive component –
+                        individuals have to step back toassess their lives – while happiness reflects positive and
+                        negative emotions that fluctuate.
+                    </p>
+
+                    <p class="my-10 md:ml-5 lg:ml-0">In other words, happiness may be an element achieved by:</p>
+
+                    <!-- List: The image should be dark .... -->
+                    <div class="flex flex-col gap-5">
+                        <div class="flex">
+                            <div class="text-right mr-2 w-10 text-xl">1.</div>
+                            <div class="col-span-2 text-left w-content">The <strong>image should be dark</strong>, and
+                                not have a lot of contrast-y edges.</div>
+                        </div>
+
+                        <div class="flex">
+                            <div class="text-right mr-2 w-10 text-xl md:ml-2">2.</div>
+                            <div class="col-span-2 text-left w-content">The <strong>text has to be white</strong>, -I
+                                dare you to fin a counter example that's clean and simple. Seriously. Just one.
+                            </div>
+                        </div>
+
+                        <div class="flex">
+                            <div class="text-right mr-2 w-10 text-xl">3.</div>
+                            <div class="col-span-2 text-left w-content"><strong>Test it at every screen/window
+                                    size</strong>to make sure it's legible.
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <p class="mt-10 md:ml-5 lg:ml-0">
+                        The challenges and struggles of the hero’s journey exist for a reason: They help you and your
+                        business grow.
+                    </p>
+
+                    <div class="mt-10 text-center">
+                        <img src="img/books-clock-contemporary-941546-770x515.jpg" alt="" class="">
+                        <small class="">Hip and Instagrammy, but a bit difficult to read.</small>
+                    </div>
+
+                    <p class="mt-5 md:ml-5 lg:ml-0">
+                        Almost all of the energy impact from this process is incurred by your mobile
+                        provider at the base station, which is part of a vast network of these towers deployed across
+                        countries to ensure there are no gaps in coverage. That sprawl requires massive amounts of
+                        energy.
+                    </p>
+
+                    <h1 class="text-2xl font-bold text-black mt-10 mb-3 md:ml-5">First Approach for Success</h1>
+
+                    <p class="md:ml-5 lg:ml-0">
+                        The American Council for an Energy-Efficient Economy estimated in a 2012 study that the energy
+                        impact of data is far greater than previously anticipated.
+                    </p>
+
+                    <p class="mt-10 md:ml-5 lg:ml-0">
+                        In real terms it is about <span
+                            class="underline underline-offset-2 decoration decoration-blue-500">5.12 kilowatt hours per
+                            gigabyte</span> of data consumed. It also uncovered where most of that cost is incurred:
+                        cloud providers.
+                    </p>
+
+                    <!-- Embeded Post from Twitter -->
+                    <div class="mt-10 md:ml-5 lg:ml-0 h-auto">
+                        <blockquote class="twitter-tweet w-content">
+                            <p lang="en" dir="ltr">Sixty percent of Africans are under the age of 25. To see Africa
+                                through their eyes is to see a continent brimming with potential and opportunity:
+                                <a href="https://t.co/Sgxobv2iga">https://t.co/Sgxobv2iga</a>
+                                <a href="https://t.co/3NvQOwwTb5">pic.twitter.com/3NvQOwwTb5</a>
+                            </p>&mdash; Bill Gates (@BillGates)
+                            <a href="https://twitter.com/BillGates/status/1039280494838509570?ref_src=twsrc%5Etfw">September
+                                10, 2018</a>
+                        </blockquote>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+
+                    <p class="mt-7 ml-1 md:ml-5">
+                        Working extremely long hours every day of the week might seem exciting at
+                        first, but it always leads to burnout.
+                    </p>
+
+                    <h1 class="text-xl font-bold text-black mt-10 mb-3 md:ml-5 lg:ml-0">The Dreamy Factors</h1>
+
+                    <p class="md:ml-5 lg:ml-0">
+                        In order to get everyone on the same page, with the right incentives, we have to accomplish a
+                        few things:
+                    </p>
+
+                    <!-- List: Return to investors .... -->
+                    <div class="">
+                        <ul class="mt-5 ml-10 flex flex-col gap-5" style="list-style-type:disc">
+                            <li>
+                                <p>
+                                    <strong>Return to investors.</strong>
+                                    Our investors took a huge bet on us and they deserved to get a handsome return.
+                                </p>
+                            </li>
+                            <li>
+                                <p></p>
+                                <strong>Return to employees</strong>
+                                Our team also took a big bet on us over the years by investing their time. They deserved
+                                a return as well.
+                            </li>
+                            <li>
+                                <strong>Stock Options.</strong>
+                                If we weren’t planning to sell the company, giving employees stock options didn’t make
+                                sense. We needed a new way for
+                                the team to share in the success of the business.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <p class="mt-10 md:ml-5 lg:ml-0">
+                        The “preference-based” perspective starts from the idea that people are better off when their
+                        reality matches better what they themselves consider to be important.
+                    </p>
+
+                    <!-- Harrican Image Section -->
+                    <div class="mt-5">
+                        <!-- Harrican -->
+                        <img src="img/black-background-burning-close-up-943150-770x515.jpg" alt="" class="">
+                        <p class="text-sm text-center">Solid use of color, capitalization, and spacing.</p>
+                    </div>
+
+                    <p class="mt-5 md:ml-5 lg:ml-0">
+                        Preferences thus have a cognitive “valuational” component: they reflect people’s
+                        well-informed and well-considered ideas about what a good life is, not merely their market
+                        behaviour.
+                    </p>
+
+                    <p class="my-8 md:ml-5 lg:ml-0">
+                        <i>Read: <strong><a href="#">20 Measures of Energy</a></strong></i>
+                    </p>
+
+                    <p class="md:ml-5 lg:ml-0">
+                        This does not coincide with subjective life satisfaction. Recall the example of patients with
+                        thelocked-in syndrome reporting high levels of satisfaction because they have adapted to their
+                        situation. This does not mean that they would not prefer it.
+                    </p>
+
+                    <p class="mt-5 md:ml-5 lg:ml-0">
+                        So it’s up to networks and cloud providers to push energy efficiency
+                        forward<br>Every megabyte has a cost, even if it’s not readily visible, but it’s easy to forget
+                        that. From the solo developer to the cloud hoster, awareness and ownership of energy efficiency
+                        is&nbsp;key.
+                    </p>
+
+                    <h1 class="text-xl font-bold text-black mt-10 mb-3 text-3xl md:ml-5 lg:ml-0">Over to You</h1>
+
+                    <p class="md:ml-5">I hope the contrast in these stories help to highlight what we’ve learned:</p>
+
+                    <!-- List: Light Comes .... -->
+                    <div>
+                        <ul class="ml-10 mt-5 flex flex-col gap-5" style="list-style-type:disc">
+                            <li>Light comes from the sky.</li>
+                            <li>Smart phones are a <em>massive</em> energy drain.</li>
+                            <li>Buy<strong>ContentBerg</strong>for your blog.</li>
+                        </ul>
+                    </div>
+
+                    <p class="mt-7 md:ml-5 md:ml-5 lg:ml-0">
+                        The more lightweight you keep an idea, <em>the quicker it gets executed</em> and thefaster you
+                        get a feel for whether or not you should continue down the same road.
+                    </p>
+
+                    <p class="mt-7 md:ml-5 md:ml-5 lg:ml-0">
+                        We’d love to show you how to make a great living as a writer. <a href="#">Add youremail</a>
+                        address to the waitlist below to be the first to hear when we reopen the doors tonew students.
+                    </p>
+
+                    <!-- Three Button and Social Icon Section -->
+                    <section class="flex flex-col w-content h-auto mt-7 gap-2">
+
+                        <div class="flex flex-col md:flex-row md:justify-between">
+                            <!-- Contains the three buttons -->
+                            <div class="grid grid-cols-2 gap-1 sm:grid-cols-3">
+                                <!-- [#fff] -->
+                                <button
+                                    class="mx-auto font-semibold text-black px-3 py-2 h-9 rounded-lg text-sm my-auto border border-[#ebebeb] sm:mx-0 sm:ml-auto">BEAUTY</button>
+
+
+                                <button
+                                    class="mx-auto font-semibold text-black px-3 py-2 h-9 rounded-lg text-sm my-auto border border-[#ebebeb]">FASHION</button>
+
+                                <button
+                                    class="col-span-2 mx-auto font-semibold text-black px-3 py-2 h-9 rounded-lg text-sm my-auto border border-[#ebebeb] sm:col-span-1 sm:mx-0 sm:mr-auto">LIFESTYLE</button>
+
+
+                            </div>
+
+                            <!-- Button & Social Media Icon Section -->
+                            <div class="mt-2">
+                                <div class="flex flex-row justify-center gap-1 text-white">
+                                    <button
+                                        class="w-auto h-auto rounded-full text-blue-700 bg-white px-3 py-1 border border-[#ebebeb]">
+                                        <i class="fa-solid fa-heart text-sm"></i><span class="ml-1 text-sm">126</span>
+                                    </button>
+
+                                    <div class="w-10 h-10 rounded-full bg-[#fff] shadow-2xl border border-[#ebebeb]">
+                                        <i class="fab fa-facebook-f text-base ml-3.5 mt-2 text-black"></i>
+                                    </div>
+                                    <div class="w-10 h-10 rounded-full bg-[#fff] shadow-2xl border border-[#ebebeb]">
+                                        <i class="fa-brands fa-twitter text-base ml-3.5 mt-2 text-black"></i>
+                                    </div>
+                                    <div class="w-10 h-10 rounded-full bg-[#fff] shadow-2xl border border-[#ebebeb]">
+                                        <i class="fab fa-linkedin-in text-base ml-3.5 mt-2 text-black"></i>
+                                    </div>
+                                    <div class="w-10 h-10 rounded-full bg-[#fff] shadow-2xl border border-[#ebebeb]">
+                                        <i class="fab fa-pinterest text-base ml-3.5 mt-2 text-black"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!-- James Doe Section with Text -->
+                    <section class="relative">
+                        <hr class="mt-28 absolute" style="border:0.2px solid gray; width:100%">
+                        <img src="img/main.jpg" alt="" class="rounded-full mx-auto scale-50 z-10">
+                        <h1 class="text-2xl font-bold text-black text-center -mt-5">James Doe</h1>
+                        <p class="mt-3 mx-3 text-center">
+                            Orion Pax is constantly, if not always depicted as having strong moral character, excellent
+                            leadership, and sound decision-making skills, and an advanced extraterrestrial.
+                        </p>
+                        <!-- Social Icon Section -->
+                        <div class="flex flex-row gap-5 text-sm text-gray-400 justify-center mt-5">
+                            <div><i class="fab fa-facebook-f"></i></div>
+                            <div><i class="fa-brands fa-twitter"></i></div>
+                            <div><i class="fab fa-pinterest"></i></div>
+                            <div><i class="fa-brands fa-instagram"></i></div>
+                        </div>
+                    </section>
+
+                    <!-- Related Posts -->
+                    <section class="">
+                        <div class="relative w-content h-10 mt-10">
+                            <hr class="w-full" style="border: 0.2px solid gray;">
+                            <div
+                                class="bg-white w-1/2 text-center h-10 absolute z-10 -mt-4 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 class="text-black font-bold">Related Posts</h1>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 4 Photo Posts -->
+                    <section class="flex flex-col mt-5 gap-10 sm:grid sm:grid-cols-2 sm:gap-5">
+                        <div>
+                            <img src="img/Wallions282979-770x515.jpg" alt="" class=" shadow-2xl">
+                            <h1 class="text-lg font-semibold mt-2.5 text-black sm:ml-5"><a href="">What 3 years of
+                                    android development taught me the hard way</a>
+                            </h1>
+                            <p class="text-sm mt-1.5 font-semibold tracking-widest text-[#989898] sm:ml-5">May 14 2018
+                            </p>
+
+                        </div>
+
+                        <div>
+                            <img src="img/shutterstock_1035324535-770x515.jpg" alt="" class=" shadow-2xl">
+                            <h1 class="text-lg font-semibold mt-2.5 text-black sm:ml-5"><a href="">Build Your Own Laptop
+                                    Screen
+                                    With Recycled Parts</a>
+                            </h1>
+                            <p class="text-sm mt-1.5 font-semibold tracking-widest text-[#989898] sm:ml-5">May 14 2018
+                            </p>
+
+                        </div>
+
+                        <div>
+                            <img src="img/books-clock-contemporary-941546-770x515.jpg" alt="" class=" shadow-2xl">
+                            <h1 class="text-lg font-semibold mt-2.5 text-black sm:ml-5"><a href="">Buildings Light up as
+                                    The
+                                    Night Approaches</a>
+                            </h1>
+                            <p class="text-sm mt-1.5 font-semibold tracking-widest text-[#989898] sm:ml-5">May 14 2018
+                            </p>
+
+                        </div>
+
+                        <div>
+                            <img src="img/samuel-zeller-356338-unsplash-770x515.jpg" alt="" class=" shadow-2xl">
+                            <h1 class="text-lg font-semibold mt-2.5 text-black sm:ml-5"><a href="">Infusing Tesla’s
+                                    future with
+                                    Mustang’s pride and passion</a>
+                            </h1>
+                            <p class="text-sm mt-1.5 font-semibold tracking-widest text-[#989898] sm:ml-5">May 14 2018
+                            </p>
+
+                        </div>
+                    </section>
+
+                    <!-- 3 Comments -->
+                    <section class="">
+                        <div class="relative w-content h-10 mt-20">
+                            <hr class="w-full" style="border: 0.2px solid gray;">
+                            <div
+                                class="bg-white w-1/2 text-center h-10 absolute z-10 -mt-4 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 class="text-black font-bold text-xl"><span class="text-blue-600">3 </span>Comments
+                                </h1>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Comments Section -->
+                    <section class="flex flex-col w-content h-auto gap-2 p-2">
+                        <div class="h-auto border-b-2 pb-10">
+                            <div class="grid grid-cols-3 mt-2">
+                                <div class="col-span-2 grid grid-cols-3">
+                                    <div class="my-auto mx-auto">
+                                        <img src="img/other.jpg" alt="" class="rounded-full h-10 mr-full">
+                                    </div>
+                                    <div class="col-span-2">
+                                        <h1 class="font-bold text-lg text-black">Groot Will</h1>
+                                        <p class="text-sm text-[#b4b4b4]">4 YEARS AGO</p>
+                                    </div>
+                                </div>
+                                <div class="text-sm text-right mr-2"><i class="fas fa-reply text-[#b4b4b4]"></i><span
+                                        class="text-blue-600 font-semibold"> REPLY</span></div>
+                            </div>
+                            <p class="mt-3 px-2 text-sm tracking-wide">That far ground rat pure from newt far panther
+                                crane lorikeet overlay alas cobra across much gosh less
+                                goldfinch
+                                ruthlessly alas examined and that more and the ouch jeez.</p>
+                        </div>
+
+                        <div class="h-auto border-b-2 pb-10 pl-10">
+                            <div class="grid grid-cols-3 mt-2">
+                                <div class="col-span-2 grid grid-cols-3">
+                                    <div class="my-auto mx-auto">
+                                        <img src="img/jane-doe.jpg" alt="" class="rounded-full h-10 mr-full">
+                                    </div>
+                                    <div class="col-span-2">
+                                        <h1 class="font-bold text-lg text-black">Jane Doe</h1>
+                                        <p class="text-sm text-[#b4b4b4]">4 YEARS AGO</p>
+                                    </div>
+                                </div>
+                                <div class="text-sm text-right mr-2"><i class="fas fa-reply text-[#b4b4b4]"></i><span
+                                        class="text-blue-600 font-semibold"> REPLY</span></div>
+                            </div>
+                            <p class="mt-3 px-2 text-sm ">Coquettish darn pernicious foresaw therefore much amongst
+                                lingeringly shed much due antagonistically alongside so then
+                                more and about turgid.</p>
+                        </div>
+
+                        <div class="h-auto border-b-2 pb-10">
+                            <div class="grid grid-cols-3 mt-2">
+                                <div class="col-span-2 grid grid-cols-3">
+                                    <div class="my-auto mx-auto">
+                                        <img src="img/other.jpg" alt="" class="rounded-full h-10 mr-full">
+                                    </div>
+                                    <div class="col-span-2">
+                                        <h1 class="font-bold text-lg text-black">Groot Will</h1>
+                                        <p class="text-sm text-[#b4b4b4]">4 YEARS AGO</p>
+                                    </div>
+                                </div>
+                                <div class="text-sm text-right mr-2"><i class="fas fa-reply text-[#b4b4b4]"></i><span
+                                        class="text-blue-600 font-semibold"> REPLY</span></div>
+                            </div>
+                            <p class="mt-3 px-2 text-sm ">That far ground rat pure from newt far panther crane lorikeet
+                                overlay alas cobra across
+                                much gosh less
+                                goldfinch
+                                ruthlessly alas examined and that more and the ouch jeez.</p>
+                        </div>
+                    </section>
+
+                    <!-- Form -->
+                    <section class="w-content">
+                        <!-- Write A Comment -->
+                        <div class="relative w-content h-10 mt-10">
+                            <hr class="w-full" style="border: 0.2px solid gray;">
+                            <div
+                                class="bg-white w-[170px] text-center h-10 absolute z-10 -mt-4 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                <h1 class="text-black font-bold text-lg">Write A Comment</h1>
+                            </div>
+                        </div>
+
+                        <!-- Input Fields -->
+                        <div class="flex flex-col gap-2 sm:grid sm:grid-cols-3 sm:gap-5">
+                            <input type="text" class="border border-gray-300 w-full pl-3 py-2 placeholder:text-sm"
+                                placeholder="Name">
+                            <input type="text" class="border border-gray-300 w-full pl-3 py-2 placeholder:text-sm"
+                                placeholder="Email">
+                            <input type="text" class="border border-gray-300 w-full pl-3 py-2 placeholder:text-sm"
+                                placeholder="Website">
+
+                            <textarea cols="30" rows="10"
+                                class="border border-gray-300 pl-3 py-2 placeholder:text-sm sm:col-span-3"
+                                placeholder="Enter Your Comment Here..">
+                            </textarea>
+
+                            <div class="text-sm tracking-tight sm:col-span-3">
+                                <input type="checkbox" class="h-4 w-4 mt-1">
+                                <span class="align-top ml-3">
+                                    Save my name, email, and website in this browser for the next time I comment.
+                                </span>
+                            </div>
+
+                            <button class="bg-black px-2 text-white text-sm w-40 py-2 mt-5 sm:mt-0">
+                                <a href="#"></a>POST COMMENT</a>
+                            </button>
+
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Another Div Adds Here -->
+                <div class="h-auto">
+                    <!-- NewsLetter Section -->
+                    <div class="mt-10 sm:w-[250px]">
+                        <div class="bg-[#f6f6f6] h-auto pb-10 ">
+                            <p class="pt-10 font-bold tracking-tighter text-center text-xl">
+                                Newsletter
+                            </p>
+                            <hr class="mx-auto mt-5" style="width:22px;height:2px;border-width:0;background-color:black;">
+                            <!-- mx-6 -->
+                            <p class="text-center  mt-7">
+                                Enter your email address below to subscribe to my
+                                newsletter
+                            </p>
+                            <div class="h-auto flex flex-col justify-center">
+
+                                <div class="mx-auto">
+                                    <input type="email" id="email" name="email" placeholder="Your email address"
+                                        class="h-[40px] border-2 mt-7 bg-[#fff] placeholder:text-sm placeholder:pl-3">
+                                </div>
+
+                                <div class="mx-auto">
+                                    <button
+                                        class="h-[40px] mt-3 px-14 bg-black text-white text-center font-semibold text-[12px] tracking-widest ">
+                                        SUBSCRIBE
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Latest Posts Section -->
+                    <div class="mt-20 justify-center mx-5 md:mx-0">
+                        <div>
+                            <h1 class="text-[20px] font-bold">Latest Posts</h1>
+                            <hr class="mt-2">
+                            <!-- Three Photo Section -->
+                            <div class="grid grid-rows-1 mt-5 gap-5">
+                                <div class="grid grid-cols-2">
+                                    <!-- Image -->
+                                    <div class="">
+                                        <img src="img/shutterstock_555069928-150x150.jpg" alt=""
+                                            class="shadow-xl hover:scale-105 duration-700 w-[130px] h-[110px]">
+                                    </div>
+                                    <!-- Text -->
+                                    <div class="text-left ml-1">
+                                        <h1
+                                            class="font-bold text-[17px] leading-[17px] tracking-normal hover:text-[#494949] md:text-sm md:tracking-tighter md:leading-[15px]">
+                                            Why every startup should adopt Amazon’s Hot Air Baloon Race</h1>
+                                        <p class="text-xs text-[#989898] font-bold mt-2">AUG 14 2018</p>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-2 gap-3">
+                                    <!-- Image -->
+                                    <div class="">
+                                        <img src="img/shutterstock_567695443-150x150.jpg" alt=""
+                                            class="shadow-xl hover:scale-105 duration-700 w-[130px] h-[110px]">
+                                    </div>
+                                    <!-- Text -->
+                                    <div class="-mr-3 mb-3 text-left">
+                                        <h1
+                                            class="font-bold text-[17px] leading-[17px] tracking-normal hover:text-[#494949] md:text-sm md:tracking-tighter md:leading-[15px]">
+                                            Is there a relation between organic farming and greenhouse pollution?</h1>
+                                        <p class="text-xs text-[#989898] font-bold mt-2">JUL 15 2018</p>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-2 gap-3">
+                                    <!-- Image -->
+                                    <div class="">
+                                        <img src="img/Wallions282979-150x150.jpg" alt=""
+                                            class="shadow-xl hover:scale-105 duration-700 w-[130px] h-[110px]">
+                                    </div>
+                                    <!-- Text -->
+                                    <div class="text-left">
+                                        <h1
+                                            class="font-bold text-[17px] leading-[17px] tracking-normal hover:text-[#494949] md:text-sm md:tracking-tighter md:leading-[15px]">
+                                            How to hack your Virtual Reality Life for Max Efficiency!</h1>
+                                        <p class="text-xs text-[#989898] font-bold mt-2">JUL 14 2018</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <!-- mt-[1000px] bg-[#FAFAFA] -->
+        <footer class="bg-[#F7F7F7] shadow-xl w-screen h-auto flex flex-col justify-evenly pt-10">
+            <!-- Social Icon -->
+            <!-- w-[500px] No need of width in most smallest screen-->
+            <div class="h-[60px] my-auto mx-auto">
+                <!-- mx-20 -->
+                <div class="flex flex-row gap-5 mt-5 mx-3">
+                    <!-- w-12 h-12 -->
+                    <div class="w-10 h-10 rounded-full bg-blue-700 hover:bg-[#000] hover:text-white shadow-xl">
+                        <!-- ml-[17.5px] mt-3 -->
+                        <i class="fab fa-facebook-f ml-[15px] mt-2 text-lg text-white"></i>
+                    </div>
+                    <!-- w-12 h-12 -->
+                    <div class="w-10 h-10 rounded-full bg-blue-700 hover:bg-[#000] hover:text-white shadow-xl">
+                        <!-- ml-4 mt-3 -->
+                        <i class="fa-brands fa-twitter ml-3 mt-2 text-lg text-white"></i>
+                    </div>
+                    <!-- w-12 h-12 -->
+                    <div class="w-10 h-10 rounded-full bg-blue-700 hover:bg-[#000] hover:text-white shadow-xl">
+                        <!-- ml-4 mt-2.5 -->
+                        <i class="fa-brands fa-instagram ml-[12.5px] mt-1.5 text-lg text-white"></i>
+                    </div>
+                    <!-- w-12 h-12 -->
+                    <div class="w-10 h-10 rounded-full bg-blue-700 hover:bg-[#000] hover:text-white shadow-xl">
+                        <!-- ml-4 mt-2.5 -->
+                        <i class="fab fa-pinterest ml-3 mt-1.5 text-lg text-white"></i>
+                    </div>
+                    <!-- w-12 h-12 -->
+                    <div class="w-10 h-10 rounded-full bg-blue-700 hover:bg-[#000] hover:text-white shadow-xl">
+                        <!-- ml-4 mt-2.5 -->
+                        <i class="fa-brands fa-dribbble ml-3 mt-1.5 text-lg text-white"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Link's List -->
+            <div class="mt-10 mx-auto w-screen">
+                <!-- flex flex-row gap-10 -->
+                <ul
+                    class="grid grid-cols-3 gap-3 font-semibold text-sm text-center sm:flex sm:flex-row sm:gap-5 sm:justify-center">
+                    <li class="hover:text-[#494949]"><a href="#">HOME</a></li>
+                    <li class="hover:text-[#494949]"><a href="#">MARKETING</a></li>
+                    <li class="hover:text-[#494949]"><a href="#">GADGETS</a></li>
+                    <li class="hover:text-[#494949]"><a href="#">BUSINESS</a></li>
+                    <li class="hover:text-[#494949]"><a href="#">ABOUT</a></li>
+                    <li class="hover:text-[#494949]"><a href="#">CONTACT</a></li>
+                    <li class="sm:hidden"></li>
+                    <!-- -mr-5 -->
+                    <li class="hover:text-[#494949]"><a href="#">BUY THEME</a></li>
+                </ul>
+            </div>
+
+            <p class="text-sm font-semibold mt-10 mx-auto">© 2018 <span class="font-bold">THEMESPHERE</span>. ALL
+                REGISTERED.
+            </p>
+            <button class="text-xs w-16 h-10 rounded-lg mx-auto mt-5 mb-5" onclick="topFunction()" id="myBtn"
+                title="Go to top">
+                <i class="fa-solid fa-angle-up"></i>&nbsp;TOP</button>
+        </footer>
+    </section>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

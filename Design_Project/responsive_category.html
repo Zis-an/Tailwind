@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="category.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/88ba240026.js" crossorigin="anonymous"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="bg-[#fff]">
+    <div class="container mx-auto">
+        <!-- Header Section -->
+        <header
+            class="flex flex-row justify-evenly shadow-lg w-full h-[106px] sm:w-content sm:justify-between lg:h-[100px] lg:w-auto">
+            <!-- Three Bar Icon -->
+            <div class="mt-9 ml-5 block sm:ml-12 sm:mt-[44px]">
+                <i class="fas fa-bars font-bold lg:hidden" style="font-size:17px;"></i>
+            </div>
+            <!-- Logo -->
+            <div class="-ml-6 mt-1 sm:-ml-20 md:-ml-36 lg:ml-10">
+                <a href="#">
+                    <img src="img/logo-2x-1.png" alt=""
+                        class="max-w-[225px] mt-[34px] ml-[43px] h-[25px] sm:h-[40px] lg:-ml-[70px]">
+                </a>
+            </div>
+            <!-- Menu -->
+            <div class="mt-10 ml-[50px] hidden lg:block lg:ml-[25px] lg:mt-11">
+                <ul class="flex flex-row gap-10 font-semibold text-[#525252] tracking-tighter">
+                    <li class="group">
+                        <a href="#" class="focus:text-[#2d53fe] hover:text-[#2d53fe]">Home&nbsp;<i
+                                class="fa-solid fa-angle-down text-xs"></i></a>
+                                <div class="shadow-2xl border-2 w-80 h-auto hide -ml-12 mt-1 hidden group-hover:block absolute z-20">
+                                    <ul class="flex flex-col gap-3 text-left pl-7 mt-5 bg-white">
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                    </ul>
+                                </div>
+                    </li>
+
+                    <li class="group">
+                        <a href="#" class="focus:text-[#2d53fe] hover:text-[#2d53fe]">Features&nbsp;<i
+                                class="fa-solid fa-angle-down text-xs"></i></a>
+                                <div class="shadow-2xl border-2 w-80 h-auto -ml-12 mt-1 hidden group-hover:block absolute z-20">
+                                    <ul class="flex flex-col gap-3 text-left pl-7 mt-5 bg-white">
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                        <li class="">Demo</li>
+                                    </ul>
+                                </div>
+                    </li>
+
+                    <li class="group">
+                        <a href="#" class="focus:text-[#2d53fe] hover:text-[#2d53fe]">Marketing&nbsp;<i
+                                class="fa-solid fa-angle-down text-xs"></i></a>
+                                <div class="absolute w-full left-0 hidden group-hover:block">
+                                    <div class="grid grid-cols-5 gap-5 mt-2.5 bg-white shadow-2xl px-10 border-2 py-16 mx-14">
+                                        <div class="shadow 2xl    flex flex-row justify-evenly">
+                                
+                                            <div class="w-[250px] mx-5 h-auto">
+                                                <img src="img/samuel-zeller-356338-unsplash-270x180.jpg" alt="" class="shadow-xl p-2">
+                                                <h1
+                                                    class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                                    How to hack your Virtual Reality Life for Max Efficiency!
+                                                </h1>
+                                                <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                                    <p class="mr-2">AUG 14 2018</p>
+                                                    <p>-</p>
+                                                    <p class="ml-2">5 Mins Read</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shadow 2xl      flex flex-row justify-evenly">
+                                            <div class="w-[250px] mx-5 h-auto">
+                                                <img src="img/shutterstock_1033175749-270x180.jpg" alt="" class="shadow-xl p-2">
+                                                <h1
+                                                    class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                                    How to hack your Virtual Reality Life for Max Efficiency!
+                                                </h1>
+                                                <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                                    <p class="mr-2">AUG 14 2018</p>
+                                                    <p>-</p>
+                                                    <p class="ml-2">5 Mins Read</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shadow 2xl     flex flex-row justify-evenly">
+                                            <div class="w-[250px] mx-5 h-auto">
+                                                <img src="img/shutterstock_1067009249-270x180.jpg" alt="" class="shadow-xl p-2">
+                                                <h1
+                                                    class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                                    How to hack your Virtual Reality Life for Max Efficiency!
+                                                </h1>
+                                                <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                                    <p class="mr-2">AUG 14 2018</p>
+                                                    <p>-</p>
+                                                    <p class="ml-2">5 Mins Read</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shadow 2xl    flex flex-row justify-evenly">
+                                            <div class="w-[250px] mx-5 h-auto">
+                                                <img src="img/shutterstock_1113405587-270x180.jpg" alt="" class="shadow-xl p-2">
+                                                <h1
+                                                    class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                                    How to hack your Virtual Reality Life for Max Efficiency!
+                                                </h1>
+                                                <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                                    <p class="mr-2">AUG 14 2018</p>
+                                                    <p>-</p>
+                                                    <p class="ml-2">5 Mins Read</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shadow 2xl      flex flex-row justify-evenly">
+                                            <div class="w-[250px] mx-5 h-auto">
+                                                <img src="img/shutterstock_236844463-270x180.jpg" alt="" class="shadow-xl p-2">
+                                                <h1
+                                                    class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                                    How to hack your Virtual Reality Life for Max Efficiency!
+                                                </h1>
+                                                <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                                    <p class="mr-2">AUG 14 2018</p>
+                                                    <p>-</p>
+                                                    <p class="ml-2">5 Mins Read</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                    </li>
+
+                    <li class="text-[#2d53fe] group">
+                        <a href="#">Gadgets&nbsp;<i class="fa-solid fa-angle-down text-xs"></i></a>
+                        <div class="absolute w-full left-0 text-black hidden group-hover:block">
+                            <div class="grid grid-cols-5 gap-5 mt-2.5 bg-white shadow-2xl px-10 border-2 py-16 mx-14 h-[380px]">
+                                <div class="-ml-3 border-r-2">
+                                    <ul class="flex flex-col gap-3 -mt-4">
+                                        <li><a href="#">Business</a></li>
+                                        <li><a href="#">Marketing</a></li>
+                                        <li><a href="#">Trends</a></li>
+                                        <li><a href="#">View All</a></li>
+                                    </ul>
+                                </div>
+                        
+                                <div class="bg-yellow-200 h-[130px]">
+                                    <img src="img/samuel-zeller-356338-unsplash-270x180.jpg" alt="">
+                                    <h1 class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                        How to hack your Virtual Reality Life for Max Efficiency!></h1>
+                                    <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                        <p class="mr-2">AUG 14 2018</p>
+                                        <p>-</p>
+                                        <p class="ml-2">5 Mins Read</p>
+                                    </div>
+                                </div>
+                                <div class="bg-yellow-200 h-[130px]">
+                                    <img src="img/shutterstock_1033175749-270x180.jpg" alt="">
+                                    <h1 class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                        How to hack your Virtual Reality Life for Max Efficiency!></h1>
+                                    <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                        <p class="mr-2">AUG 14 2018</p>
+                                        <p>-</p>
+                                        <p class="ml-2">5 Mins Read</p>
+                                    </div>
+                                </div>
+                                <div class="bg-yellow-200 h-[130px]">
+                                    <img src="img/shutterstock_1067009249-270x180.jpg" alt="">
+                                    <h1 class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                        How to hack your Virtual Reality Life for Max Efficiency!></h1>
+                                    <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                        <p class="mr-2">AUG 14 2018</p>
+                                        <p>-</p>
+                                        <p class="ml-2">5 Mins Read</p>
+                                    </div>
+                                </div>
+                                <div class="bg-yellow-200 h-[130px]">
+                                    <img src="img/shutterstock_1113405587-270x180.jpg" alt="">
+                                    <h1 class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                        How to hack your Virtual Reality Life for Max Efficiency!></h1>
+                                    <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                        <p class="mr-2">AUG 14 2018</p>
+                                        <p>-</p>
+                                        <p class="ml-2">5 Mins Read</p>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#" class="focus:text-[#2d53fe] hover:text-[#2d53fe]">Buy Theme&nbsp;<i
+                                class="fa-solid fa-angle-down text-xs"></i></a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <!-- Social Icon Section -->
+            <div class="ml-[265px] mt-2 hidden sm:block sm:ml-[100px] md:-mr-36 lg:-mr-10">
+                <ul class="flex mt-9 gap-4 text-base ml-5">
+                    <li class="hover:text-blue-500"><i class="fab fa-facebook-f"></i></li>
+                    <li class="hover:text-blue-500"><i class="fa-brands fa-twitter"></i></li>
+                    <li class="hover:text-blue-500"><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+
+            <!-- Search Section -->
+            <div class="my-auto mr-3 border-l-2 border-gray-300 ml-16 md:mt-11 lg:mt-11">
+                <button class="">
+                    <i class="fa-solid fa-magnifying-glass ml-5"></i>
+                </button>
+            </div>
+
+        </header>
+
+        <!-- Category+Gadgets -->
+        <div class="bg-[#FAFAFA] w-full h-[106px] mt-10 lg:px-[420px]">
+            <p class="text-[#2D53FE] font-semibold text-[12px] tracking-wider text-center lg:text-[13px]">CATEGORY</p>
+            <p class="text-center font-bold text-[29px] font-[sans-serif] leading-[50px] lg:text-[30px]">GADGETS</p>
+            <hr class="mt-10">
+        </div>
+
+        <!-- Image Section -->
+        <div class="grid grid-cols-1 w-full h-[106px] mx-2 px-2 mt-[70px] sm:px-10 lg:grid-cols-6 lg:w-fit lg:ml-12 lg:px-0 lg:gap-5">
+            <div class="lg:col-span-4">
+
+                <!-- First Image -->
+                <div>
+                    <img src="img/shutterstock_671232430-770x515.jpg" alt=""
+                        class="shadow-xl hover:scale-105 duration-700">
+                    <!-- ml-6 -->
+                    <p class="text-[#2D53FE] text-xs font-semibold tracking-wider mt-9 sm:ml-6">GADGETS</p>
+                    <!-- ml-6 mr-20 text-3xl -->
+                    <h1
+                        class="mt-5 mr-5 text-xl font-bold hover:underline hover:underline-offset-2 hover:decoration-[#2d53fe] sm:ml-6 sm:mr-20 sm:text-2xl">
+                        <a href="#">Tupac tribute murals and graffiti from around the world</a>
+                    </h1>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-xs text-[#989898] font-semibold tracking-widest sm:ml-6">MAY 15 2018 - 5 MINS
+                        READ
+                    </p>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-[#505050] sm:ml-6">More off this less hello salamander lied porpoise much over
+                        tightly circa horse taped so innocuously outside crud mightily rigorous…</p>
+                    <!-- ml-6 -->
+                    <button
+                        class="mt-5 underline underline-offset-2 decoration-[#2d53fe] hover:text-[#505050] hover:decoration-[#505050] sm:ml-6">
+                        <a href="">Read More</a>
+                    </button>
+                </div>
+
+                <!-- Second Image -->
+                <div class="mt-16">
+                    <img src="img/Wallions280862-770x515.jpg" alt="" class="shadow-xl hover:scale-105 duration-700">
+                    <!-- ml-6 -->
+                    <p class="text-[#2D53FE] text-xs font-semibold tracking-wider mt-9 sm:ml-6">GADGETS</p>
+                    <!-- ml-6 mr-20 text-3xl -->
+                    <h1
+                        class="mt-5 mr-5 text-xl font-bold hover:underline hover:underline-offset-2 hover:decoration-[#2d53fe] sm:ml-6 sm:mr-20 sm:text-2xl">
+                        <a href="#">Explore the Sea world with Deep Sea Fishing Miami 2018</a>
+                    </h1>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-xs text-[#989898] font-semibold tracking-widest sm:ml-6">MAY 15 2018 - 5 MINS
+                        READ
+                    </p>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-[#505050] sm:ml-6">More off this less hello salamander lied porpoise much over
+                        tightly circa horse
+                        taped so innocuously outside crud mightily rigorous…</p>
+                    <!-- ml-6 -->
+                    <button
+                        class="mt-5 underline underline-offset-2 decoration-[#2d53fe] hover:text-[#505050] hover:decoration-[#505050] sm:ml-6">
+                        <a href="">Read More</a>
+                    </button>
+                </div>
+
+                <!-- Third Image -->
+                <div class="mt-16">
+                    <img src="img/shutterstock_1035324535-770x515.jpg" alt=""
+                        class="shadow-xl hover:scale-105 duration-700">
+                    <!-- ml-6 -->
+                    <p class="text-[#2D53FE] text-xs font-semibold tracking-wider mt-9 sm:ml-6">GADGETS</p>
+                    <!-- ml-6 mr-20 text-3xl-->
+                    <h1
+                        class="mt-5 mr-5 text-xl font-bold hover:underline hover:underline-offset-2 hover:decoration-[#2d53fe] sm:ml-6 sm:mr-20 sm:text-2xl">
+                        <a href="#">In defense of being on the phone all the damn time 24 hours</a>
+                    </h1>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-xs text-[#989898] font-semibold tracking-widest sm:ml-6">MAY 15 2018 - 5 MINS
+                        READ
+                    </p>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-[#505050] sm:ml-6">More off this less hello salamander lied porpoise much over
+                        tightly circa horse
+                        taped so innocuously outside crud mightily rigorous…</p>
+                    <!-- ml-6 -->
+                    <button
+                        class="mt-5 underline underline-offset-2 decoration-[#2d53fe] hover:text-[#505050] hover:decoration-[#505050] sm:ml-6">
+                        <a href="">Read More</a>
+                    </button>
+                </div>
+
+                <!-- Fourth Image -->
+                <div class="mt-16 hover:opacity-80">
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container duration-700">
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                            <img src="img/shutterstock_1035324535-770x515.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="img/shutterstock_1067009249-770x515.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="img/Wallions280994-770x515.jpg" style="width:100%">
+                        </div>
+
+                        <div class="mySlides fade">
+                            <img src="img/Wallions281416-770x515.jpg" style="width:100%">
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+
+
+                    <!-- ml-6 -->
+                    <p class="text-[#2D53FE] text-xs font-semibold tracking-wider mt-9 sm:ml-6">GADGETS</p>
+                    <!-- ml-6 mr-20 text-3xl -->
+                    <h1
+                        class="mt-5 mr-5 text-xl font-bold hover:underline hover:underline-offset-2 hover:decoration-[#2d53fe] sm:ml-6 sm:mr-20 sm:text-2xl">
+                        <a href="#">Infusing Tesla’s future with Mustang’s pride and passion</a>
+                    </h1>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-xs text-[#989898] font-semibold tracking-widest sm:ml-6">MAY 15 2018 - 5 MINS
+                        READ
+                    </p>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-[#505050] sm:ml-6">More off this less hello salamander lied porpoise much over
+                        tightly circa horse
+                        taped so innocuously outside crud mightily rigorous…</p>
+                    <!-- ml-6 -->
+                    <button
+                        class="mt-5 underline underline-offset-2 decoration-[#2d53fe] hover:text-[#505050] hover:decoration-[#505050] sm:ml-6">
+                        <a href="">Read More</a>
+                    </button>
+                </div>
+
+                <!-- Fifth Image -->
+                <div class="mt-16">
+                    <img src="img/Wallions281416-770x515.jpg" alt="" class="shadow-xl hover:scale-105 duration-700">
+                    <!-- ml-6 -->
+                    <p class="text-[#2D53FE] text-xs font-semibold tracking-wider mt-9 sm:ml-6">GADGETS</p>
+                    <!-- ml-6 mr-20 text-3xl -->
+                    <h1
+                        class="mt-5 mr-5 text-xl font-bold hover:underline hover:underline-offset-2 hover:decoration-[#2d53fe] sm:ml-6 sm:mr-20 sm:text-2xl">
+                        <a href="#">How I went from programming with a Nokia to Samsung</a>
+                    </h1>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-xs text-[#989898] font-semibold tracking-widest sm:ml-6">MAY 15 2018 - 5 MINS
+                        READ
+                    </p>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-[#505050] sm:ml-6">More off this less hello salamander lied porpoise much over
+                        tightly circa horse
+                        taped so innocuously outside crud mightily rigorous…</p>
+                    <!-- ml-6 -->
+                    <button
+                        class="mt-5 underline underline-offset-2 decoration-[#2d53fe] hover:text-[#505050] hover:decoration-[#505050] sm:ml-6">
+                        <a href="">Read More</a>
+                    </button>
+                </div>
+
+                <!-- Sixth Image -->
+                <div class="mt-16">
+                    <img src="img/Wallions281109-770x515.jpg" alt="" class="shadow-xl hover:scale-105 duration-700">
+                    <!-- ml-6 -->
+                    <p class="text-[#2D53FE] text-xs font-semibold tracking-wider mt-9 sm:ml-6">GADGETS</p>
+                    <!-- ml-6 mr-20 text-3xl -->
+                    <h1
+                        class="mt-5 mr-5 text-xl font-bold hover:underline hover:underline-offset-2 hover:decoration-[#2d53fe] sm:ml-6 sm:mr-20 sm:text-2xl">
+                        <a href="#">3 reasons to get excited about a brand new greenhouse</a>
+                    </h1>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-xs text-[#989898] font-semibold tracking-widest sm:ml-6">MAY 15 2018 - 5 MINS
+                        READ
+                    </p>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-[#505050] sm:ml-6">More off this less hello salamander lied porpoise much over
+                        tightly circa horse
+                        taped so innocuously outside crud mightily rigorous…</p>
+                    <!-- ml-6 -->
+                    <button
+                        class="mt-5 underline underline-offset-2 decoration-[#2d53fe] hover:text-[#505050] hover:decoration-[#505050] sm:ml-6">
+                        <a href="">Read More</a>
+                    </button>
+                </div>
+
+                <!-- Seventh Image -->
+                <div class="mt-16">
+                    <img src="img/beautiful-beauty-braided-hair-1006202-770x515.jpg" alt=""
+                        class="shadow-xl hover:scale-105 duration-700">
+                    <!-- ml-6 -->
+                    <p class="text-[#2D53FE] text-xs font-semibold tracking-wider mt-9 sm:ml-6">GADGETS</p>
+                    <!-- ml-6 mr-20 text-3xl -->
+                    <h1
+                        class="mt-5 mr-5 text-xl font-bold hover:underline hover:underline-offset-2 hover:decoration-[#2d53fe] sm:ml-6 sm:mr-20 sm:text-2xl">
+                        <a href="#">What 3 years of android development taught me the hard way</a>
+                    </h1>
+                    <!-- ml-6 -->
+                    <p class=" mt-5 text-xs text-[#989898] font-semibold tracking-widest sm:ml-6">MAY 15 2018 - 5 MINS
+                        READ
+                    </p>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-[#505050] sm:ml-6">More off this less hello salamander lied porpoise much over
+                        tightly circa horse
+                        taped so innocuously outside crud mightily rigorous…</p>
+                    <!-- ml-6 -->
+                    <button
+                        class="mt-5 underline underline-offset-2 decoration-[#2d53fe] hover:text-[#505050] hover:decoration-[#505050] sm:ml-6">
+                        <a href="">Read More</a>
+                    </button>
+                </div>
+
+                <!-- Eighth Image -->
+                <div class="mt-16">
+                    <img src="img/Wallions283211-770x515.jpg" alt="" class="shadow-xl hover:scale-105 duration-700">
+                    <!-- ml-6 -->
+                    <p class="text-[#2D53FE] text-xs font-semibold tracking-wider mt-9 sm:ml-6">GADGETS</p>
+                    <!-- ml-6 mr-20 text-3xl -->
+                    <h1
+                        class="mt-5 mr-5 text-xl font-bold hover:underline hover:underline-offset-2 hover:decoration-[#2d53fe] sm:ml-6 sm:mr-20 sm:text-2xl">
+                        <a href="#">Archaeologists may find a hidden tunnel in king Tut’s tomb</a>
+                    </h1>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-xs text-[#989898] font-semibold tracking-widest sm:ml-6">MAY 15 2018 - 5 MINS
+                        READ
+                    </p>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-[#505050] sm:ml-6">More off this less hello salamander lied porpoise much over
+                        tightly circa horse
+                        taped so innocuously outside crud mightily rigorous…</p>
+                    <!-- ml-6 -->
+                    <button
+                        class="mt-5 underline underline-offset-2 decoration-[#2d53fe] hover:text-[#505050] hover:decoration-[#505050] sm:ml-6">
+                        <a href="">Read More</a>
+                    </button>
+                </div>
+
+                <!-- Ninth Image -->
+                <div class="mt-16">
+                    <img src="img/black-background-burning-close-up-943150-770x515.jpg" alt=""
+                        class="shadow-xl hover:scale-105 duration-700">
+                    <!-- ml-6 -->
+                    <p class="text-[#2D53FE] text-xs font-semibold tracking-wider mt-9 sm:ml-6">GADGETS</p>
+                    <!-- ml-6 mr-20 text-3xl -->
+                    <h1
+                        class="mt-5 mr-5 text-xl font-bold hover:underline hover:underline-offset-2 hover:decoration-[#2d53fe] sm:ml-6 sm:mr-20 sm:text-2xl">
+                        <a href="#">How FC is The Best Team in The League</a>
+                    </h1>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-xs text-[#989898] font-semibold tracking-widest sm:ml-6">APR 14 2018 - 5 MINS
+                        READ
+                    </p>
+                    <!-- ml-6 -->
+                    <p class="mt-5 text-[#505050] sm:ml-6">More off this less hello salamander lied porpoise much over
+                        tightly circa horse
+                        taped so innocuously outside crud mightily rigorous…</p>
+                    <!-- ml-6 -->
+                    <button
+                        class="mt-5 underline underline-offset-2 decoration-[#2d53fe] hover:text-[#505050] hover:decoration-[#505050] sm:ml-6">
+                        <a href="">Read More</a>
+                    </button>
+                </div>
+
+            </div>
+
+
+
+
+            <!-- Right Side Grid Column -->
+            <div class="lg:col-span-2">
+                <!-- NewsLetter Section -->
+                <div class="mt-20 lg:-mt-4">
+                    <div class="bg-[#f6f6f6] h-auto pb-10 lg:mr-[20px]">
+                        <p class="pt-10 font-bold tracking-tighter text-center text-xl lg:mt-[20px] lg:text-2xl">
+                            Newsletter</p>
+                        <hr class="mx-auto mt-5" style="width:22px;height:2px;border-width:0;background-color:black;">
+                        <p class="text-center mx-6 mt-7 lg:mx-10">Enter your email address below to subscribe to my
+                            newsletter</p>
+                        <div class="w-content h-auto flex flex-col justify-center sm:w-full">
+                            <div class="mx-auto">
+                                <input type="email" id="email" name="email" placeholder="Your email address"
+                                    class="w-content h-[40px] border-2 mt-7 bg-[#fff] sm:w-[500px] md:w-[600px] lg:w-[280px] lg:h-[50px]">
+                            </div>
+                            <div class="mx-auto">
+                                <button
+                                    class="w-content h-[40px] mt-3 px-14 bg-black text-white text-center font-semibold text-[12px] tracking-widest sm:w-[500px] md:w-[600px] lg:w-[280px] lg:h-[50px]">
+                                    SUBSCRIBE
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Latest Posts Section -->
+                <div class="mt-20 justify-center">
+                    <div>
+                        <h1 class="text-[20px] font-bold">Latest Posts</h1>
+                        <hr class="mt-2">
+                        <!-- Three Photo Section -->
+                        <div class="grid grid-rows-1 mt-5 gap-5">
+                            <div class="grid grid-cols-2">
+                                <!-- Image -->
+                                <div class="">
+                                    <img src="img/shutterstock_555069928-150x150.jpg" alt=""
+                                        class="shadow-xl hover:scale-105 duration-700 w-[130px] h-[110px]">
+                                </div>
+                                <!-- Text -->
+                                <div class="text-left sm:-ml-32 sm:mt-3 md:-ml-48 md:mt-8 lg:-ml-2 lg:mt-0">
+                                    <h1
+                                        class="font-bold text-[17px] leading-[17px] tracking-normal hover:text-[#494949] sm:text-[18px] sm:font-semibold sm:leading-[25px] lg:leading-[23px] tracking-wide">
+                                        Why every startup should adopt Amazon’s Hot Air Baloon Race</h1>
+                                    <p class="text-xs text-[#989898] font-bold mt-2 sm:mt-5">AUG 14 2018</p>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 gap-3">
+                                <!-- Image -->
+                                <div class="">
+                                    <img src="img/shutterstock_567695443-150x150.jpg" alt=""
+                                        class="shadow-xl hover:scale-105 duration-700 w-[130px] h-[110px]">
+                                </div>
+                                <!-- Text -->
+                                <div class="-mr-3 mb-3 text-left sm:-ml-32 sm:mt-3 md:-ml-48 md:mt-8 lg:-ml-2 lg:mt-0">
+                                    <h1
+                                        class="font-bold text-[17px] leading-[17px] tracking-normal hover:text-[#494949] sm:text-[18px] sm:font-semibold sm:leading-[25px] lg:leading-[23px] lg:tracking-wide">
+                                        Is there a relation between organic farming and greenhouse pollution?</h1>
+                                    <p class="text-xs text-[#989898] font-bold mt-2 sm:mt-5">JUL 15 2018</p>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 gap-3">
+                                <!-- Image -->
+                                <div class="">
+                                    <img src="img/Wallions282979-150x150.jpg" alt=""
+                                        class="shadow-xl hover:scale-105 duration-700 w-[130px] h-[110px]">
+                                </div>
+                                <!-- Text -->
+                                <div class="text-left sm:-ml-32 sm:mt-3 md:-ml-48 md:mt-8 lg:-ml-2 lg:mt-0">
+                                    <h1
+                                        class="font-bold text-[17px] leading-[17px] tracking-normal hover:text-[#494949] sm:text-[18px] sm:font-semibold sm:leading-[25px] lg:leading-[23px] lg:tracking-wide">
+                                        How to hack your Virtual Reality Life for Max Efficiency!</h1>
+                                    <p class="text-xs text-[#989898] font-bold mt-2 sm:mt-5">JUL 14 2018</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="mt-32 bg-[#FAFAFA] shadow-xl w-full h-[340px] lg:w-full lg:-ml-5 lg:col-span-6">
+                <!-- Social Icon -->
+                <div class="flex flex-row gap-3 justify-center pt-10 lg:gap-5">
+                    <div
+                        class="w-10 h-10 rounded-full bg-blue-700 hover:bg-[#000] hover:text-white shadow-xl lg:w-12 lg:h-12">
+                        <i class="fab fa-facebook-f ml-[14px] mt-2 text-lg text-white lg:ml-[17.5px] lg:mt-3"></i>
+                    </div>
+                    <div
+                        class="w-10 h-10 rounded-full bg-blue-700 hover:bg-[#000] hover:text-white shadow-xl lg:w-12 lg:h-12">
+                        <i class="fa-brands fa-twitter ml-3 mt-2 text-lg text-white lg:ml-4 lg:mt-3"></i>
+                    </div>
+                    <div
+                        class="w-10 h-10 rounded-full bg-blue-700 hover:bg-[#000] hover:text-white shadow-xl lg:w-12 lg:h-12">
+                        <i class="fa-brands fa-instagram ml-3 mt-2 text-lg text-white lg:ml-4 lg:mt-2.5"></i>
+                    </div>
+                    <div class="w-10 h-10 rounded-full bg-blue-700 hover:bg-[#000] hover:text-white shadow-xl lg:w-12 lg:h-12">
+                        <i class="fab fa-pinterest ml-3 mt-2 text-lg text-white lg:ml-4 lg:mt-2.5"></i>
+                    </div>
+                    <div
+                        class="w-10 h-10 rounded-full bg-blue-700 hover:bg-[#000] hover:text-white shadow-xl lg:w-12 lg:h-12">
+                        <i class="fa-brands fa-dribbble ml-3 mt-2 text-lg text-white lg:ml-4 lg:mt-2.5"></i>
+                    </div>
+                </div>
+
+                <!-- Link's List -->
+                <div class="mt-10 justify-center">
+                    <ul
+                        class="grid grid-cols-3 gap-5 mx-[10px] font-semibold text-sm text-center sm:flex sm:felx-col md:justify-center lg:flex lg:flex-row lg:gap-10 lg:mx-[280px]">
+                        <li class="hover:text-[#494949]"><a href="#">HOME</a></li>
+                        <li class="hover:text-[#494949]"><a href="#">MARKETING</a></li>
+                        <li class="hover:text-[#494949]"><a href="#">GADGETS</a></li>
+                        <li class="hover:text-[#494949]"><a href="#">BUSINESS</a></li>
+                        <li class="hover:text-[#494949]"><a href="#">ABOUT</a></li>
+                        <li class="hover:text-[#494949]"><a href="#">CONTACT</a></li>
+                        <div class="sm:hidden"></div>
+                        <li class="hover:text-[#494949] -mr-5 lg:-mr-10"><a href="#">BUY THEME</a></li>
+                    </ul>
+                </div>
+
+                <p class="text-sm font-semibold text-center mt-10 lg:justify-center">© 2018 <span
+                        class="font-bold">THEMESPHERE</span>. ALL
+                    REGISTERED.
+                    <button class="mt-10 pb-10 text-xs absolute right-0 left-0" onclick="topFunction()" id="myBtn"
+                        title="Go to top">
+                        <i class="fa-solid fa-angle-up"></i>&nbsp;TOP</button>
+                </p>
+            </footer>
+
+        </div>
+    </div>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+
+</body>
+
+</html>

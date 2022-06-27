@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/88ba240026.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container mx-auto relative">
+        <!-- Header Section -->
+        <header class="grid grid-cols-12 max-w-full h-[106px]">
+            <!-- Logo -->
+            <div class="col-span-3 hidden lg:block">
+                <img src="img/logo-2x-1.png" alt="" class="max-w-[225px] mt-6 ml-10 h-[40px]">
+            </div>
+            <!-- Menu bar -->
+            <div class="col-span-6 hidden lg:block z-10 ">
+                <ul class="flex mt-8 text-[#494949] text-base font-semibold gap-7">
+                    <li class="group"><a href="#" class="focus:text-[#2d53fe] hover:text-[#2d53fe]">Home</a>&nbsp;<i
+                            class="fa-solid fa-angle-down"></i>
+                        <div
+                            class="shadow-2xl border-2 w-80 h-auto hide -ml-12 mt-1 hidden group-hover:block absolute z-20">
+                            <ul class="flex flex-col gap-3 text-left pl-7 mt-5 bg-white">
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="group"><a href="#" class="focus:text-[#2d53fe] hover:text-[#2d53fe]">Features</a>&nbsp;<i
+                            class="fa-solid fa-angle-down"></i>
+                        <div class="shadow-2xl border-2 w-80 h-auto -ml-12 mt-1 hidden group-hover:block absolute z-20">
+                            <ul class="flex flex-col gap-3 text-left pl-7 mt-5 bg-white">
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                                <li class="">Demo</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="group">
+                        <a href="#" class="focus:text-[#2d53fe] hover:text-[#2d53fe]">Marketing</a>&nbsp;<i
+                            class="fa-solid fa-angle-down"></i>
+                        <!-- -ml-[460px] -->
+                        <div class="absolute w-full left-0 hidden group-hover:block">
+                            <div class="grid grid-cols-5 gap-5 mt-2.5 bg-white shadow-2xl px-10 border-2 py-16 mx-14">
+                                <div class="shadow 2xl    flex flex-row justify-evenly">
+
+                                    <div class="w-[250px] mx-5 h-auto">
+                                        <img src="img/samuel-zeller-356338-unsplash-270x180.jpg" alt=""
+                                            class="shadow-xl p-2">
+                                        <h1
+                                            class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                            How to hack your Virtual Reality Life for Max Efficiency!
+                                        </h1>
+                                        <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                            <p class="mr-2">AUG 14 2018</p>
+                                            <p>-</p>
+                                            <p class="ml-2">5 Mins Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow 2xl      flex flex-row justify-evenly">
+                                    <div class="w-[250px] mx-5 h-auto">
+                                        <img src="img/shutterstock_1033175749-270x180.jpg" alt="" class="shadow-xl p-2">
+                                        <h1
+                                            class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                            How to hack your Virtual Reality Life for Max Efficiency!
+                                        </h1>
+                                        <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                            <p class="mr-2">AUG 14 2018</p>
+                                            <p>-</p>
+                                            <p class="ml-2">5 Mins Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow 2xl     flex flex-row justify-evenly">
+                                    <div class="w-[250px] mx-5 h-auto">
+                                        <img src="img/shutterstock_1067009249-270x180.jpg" alt="" class="shadow-xl p-2">
+                                        <h1
+                                            class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                            How to hack your Virtual Reality Life for Max Efficiency!
+                                        </h1>
+                                        <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                            <p class="mr-2">AUG 14 2018</p>
+                                            <p>-</p>
+                                            <p class="ml-2">5 Mins Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow 2xl    flex flex-row justify-evenly">
+                                    <div class="w-[250px] mx-5 h-auto">
+                                        <img src="img/shutterstock_1113405587-270x180.jpg" alt="" class="shadow-xl p-2">
+                                        <h1
+                                            class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                            How to hack your Virtual Reality Life for Max Efficiency!
+                                        </h1>
+                                        <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                            <p class="mr-2">AUG 14 2018</p>
+                                            <p>-</p>
+                                            <p class="ml-2">5 Mins Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shadow 2xl      flex flex-row justify-evenly">
+                                    <div class="w-[250px] mx-5 h-auto">
+                                        <img src="img/shutterstock_236844463-270x180.jpg" alt="" class="shadow-xl p-2">
+                                        <h1
+                                            class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                            How to hack your Virtual Reality Life for Max Efficiency!
+                                        </h1>
+                                        <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                            <p class="mr-2">AUG 14 2018</p>
+                                            <p>-</p>
+                                            <p class="ml-2">5 Mins Read</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                    
+                    <li class="group">
+                        <a href="#" class="focus:text-[#2d53fe] hover:text-[#2d53fe]">Gadgets</a>&nbsp;<i
+                            class="fa-solid fa-angle-down"></i>
+                        <div class="absolute w-full left-0 hidden group-hover:block">
+                            <div
+                                class="grid grid-cols-5 gap-5 mt-2.5 bg-white shadow-2xl px-10 border-2 py-16 mx-14 h-[380px]">
+                                <div class="-ml-3 border-r-2">
+                                    <ul class="flex flex-col gap-3 -mt-4">
+                                        <li><a href="#">Business</a></li>
+                                        <li><a href="#">Marketing</a></li>
+                                        <li><a href="#">Trends</a></li>
+                                        <li><a href="#">View All</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-yellow-200 h-[130px]">
+                                    <img src="img/samuel-zeller-356338-unsplash-270x180.jpg" alt="">
+                                    <h1
+                                        class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                        How to hack your Virtual Reality Life for Max Efficiency!></h1>
+                                    <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                        <p class="mr-2">AUG 14 2018</p>
+                                        <p>-</p>
+                                        <p class="ml-2">5 Mins Read</p>
+                                    </div>
+                                </div>
+                                <div class="bg-yellow-200 h-[130px]">
+                                    <img src="img/shutterstock_1033175749-270x180.jpg" alt="">
+                                    <h1
+                                        class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                        How to hack your Virtual Reality Life for Max Efficiency!></h1>
+                                    <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                        <p class="mr-2">AUG 14 2018</p>
+                                        <p>-</p>
+                                        <p class="ml-2">5 Mins Read</p>
+                                    </div>
+                                </div>
+                                <div class="bg-yellow-200 h-[130px]">
+                                    <img src="img/shutterstock_1067009249-270x180.jpg" alt="">
+                                    <h1
+                                        class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                        How to hack your Virtual Reality Life for Max Efficiency!></h1>
+                                    <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                        <p class="mr-2">AUG 14 2018</p>
+                                        <p>-</p>
+                                        <p class="ml-2">5 Mins Read</p>
+                                    </div>
+                                </div>
+                                <div class="bg-yellow-200 h-[130px]">
+                                    <img src="img/shutterstock_1113405587-270x180.jpg" alt="">
+                                    <h1
+                                        class="font-bold mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 px-2 text-sm">
+                                        How to hack your Virtual Reality Life for Max Efficiency!></h1>
+                                    <div class="flex mt-4 text-xs text-[#B0ADAE] font-bold pl-2 pb-3">
+                                        <p class="mr-2">AUG 14 2018</p>
+                                        <p>-</p>
+                                        <p class="ml-2">5 Mins Read</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#" class="focus:text-[#2d53fe] hover:text-[#2d53fe]">Buy Theme</a></li>
+                </ul>
+            </div>
+            <div class="hidden lg:block"></div>
+            <!-- Social Section -->
+            <div class="hidden lg:block">
+                <ul class="flex mt-9 gap-4 text-base ml-5">
+                    <li class="hover:text-blue-500"><i class="fab fa-facebook-f"></i></li>
+                    <li class="hover:text-blue-500"><i class="fa-brands fa-twitter"></i></li>
+                    <li class="hover:text-blue-500"><i class="fa-brands fa-instagram"></i></li>
+                    <li>
+                        <!-- Search Section -->
+                        <div class="my-auto mr-3 border-l-2 border-gray-300">
+                            <button class="" onclick="myFunction()">
+                                <i class="fa-solid fa-magnifying-glass ml-5"></i>
+                            </button>
+                        </div>
+                        <div id="myDiv" class="w-screen">1</div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Header for Mobile Device -->
+            <div class="flex w-full px-4 justify-between max-w-full col-span-11">
+                <div class="flex w-40 h-24 justify-around">
+                    <div class="my-auto mr-5 mbl-device"><i class="fa-solid fa-bars"></i></div>
+                    <div class="w-32 h-6 my-auto mbl-device"><img src="img/logo-2x-1.png" alt=""></div>
+                </div>
+                <!-- Search Section -->
+                <div class="my-auto ml-20 mr-3 border-l-2 border-gray-300 mbl-device">
+                    <button class="" onclick="myFunction_2()">
+                        <i class="fa-solid fa-magnifying-glass ml-5"></i>
+                    </button>
+                    <div id="myDiv_2"></div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Second Section -->
+        <div class="grid lg:grid lg:grid-cols-12 lg:ml-10 mt-4 mr-3 lg:gap-5">
+            <div class="ml-4 mr-4 lg:col-span-8 -z-10">
+                <!-- Baloon Image -->
+                <img src="img/shutterstock_555069928-770x515.jpg" alt=""
+                    class="shadow-xl hover:scale-105 hover:duration-700">
+                <div class="mt-5 lg:mt-8 lg:ml-5">
+                    <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider">MARKETING</a>
+                </div>
+                <h1
+                    class="mt-3 text-xl font-bold mr-5 lg:font-bold lg:text-3xl lg:mt-3 lg:ml-5 lg:mr-32 lg:tracking-tight">
+                    Why every startup should adopt Amazon’s Hot Air Baloon Race</h1>
+                <div class="flex mt-4 text-sm text-[#B0ADAE] font-bold lg:mt-3 lg:ml-5">
+                    <p class="mr-2">AUG 14 2018</p>
+                    <p>-</p>
+                    <p class="ml-2">5 Mins Read</p>
+                </div>
+                <p class="mt-5 text-sm lg:mt-5 lg:ml-5 lg:text-[#494949]">More off this less hello salamander lied
+                    porpoise much over tightly circa horse taped so innocuously outside crud
+                    mightily rigorous…</p>
+                <p class="underline mt-5 underline-offset-4 decoration-blue-500 hover:decoration-black lg:ml-5"><a
+                        href="">Read More</a></p>
+            </div>
+
+            <div class="flex flex-col col-span-4 ml-4 mt-10 lg:mt-0 lg:ml-5">
+                <h1 class="font-bold text-xl tracking-tight lg:text-xl">More Featured</h1>
+                <hr class="mt-2">
+
+                <div class="mt-5 lg:mt-10">
+                    <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider">BUSINESS</a>
+                    <h1
+                        class="font-bold text-lg mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl">
+                        How to hack your Virtual Reality Life for Max Efficiency!
+                    </h1>
+                    <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold">
+                        <p class="mr-2">Jul 14 2018</p>
+                        <p>-</p>
+                        <p class="ml-2">5 Mins Read</p>
+                    </div>
+                </div>
+
+                <div class="mt-10">
+                    <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider">GADGETS</a>
+                    <h1
+                        class="font-bold text-lg mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl">
+                        Tupac tribute murals and graffiti from around the world
+                    </h1>
+                    <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold">
+                        <p class="mr-2">MAY 15 2018</p>
+                        <p>-</p>
+                        <p class="ml-2">5 Mins Read</p>
+                    </div>
+                </div>
+
+                <div class="mt-10">
+                    <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider">GADGETS</a>
+                    <h1
+                        class="font-bold text-lg mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl">
+                        Explore the Sea world with Deep Sea Fishing Miami 2018
+                    </h1>
+                    <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold">
+                        <p class="mr-2">MAY 15 2018</p>
+                        <p>-</p>
+                        <p class="ml-2">5 Mins Read</p>
+                    </div>
+                </div>
+
+                <div class="mt-10">
+                    <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider">GADGETS</a>
+                    <h1
+                        class="font-bold text-lg mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl">
+                        In defense of being on the phone all the damn time 24 hours
+                    </h1>
+                    <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold">
+                        <p class="mr-2">MAY 15 2018</p>
+                        <p>-</p>
+                        <p class="ml-2">5 Mins Read</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Section -->
+        <div class="ml-4 mr-4 md:ml-10">
+            <div class="flex justify-between mt-12">
+                <h1 class="text-xl font-bold">News & Trends</h1>
+                <button class=""><a href="" class="text-[#9e9e9e] text-sm">View All</a></button>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid sm:grid-cols-2 sm:gap-10">
+                <!-- Second Image -->
+                <div class="mt-10">
+                    <img src="img/Wallions280994-770x515.jpg" alt=""
+                        class="shadow-xl hover:scale-105 hover:duration-700">
+                    <div class="mt-10">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">TRENDS</a>
+                        <h1
+                            class="font-bold text-lg mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                            The biggest and most awesome camera rumors of the year
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:mt-10 sm:ml-4">
+                            <p class="mr-2">MAY 14 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa horse taped so innocuously outside crud mightily rigorous…</p>
+                    </div>
+                </div>
+
+                <!-- Third Image -->
+                <div class="mt-10">
+                    <img src="img/Wallions281416-770x515.jpg" alt=""
+                        class="shadow-xl hover:scale-105 hover:duration-700">
+                    <div class="mt-10">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">TRENDS</a>
+                        <h1
+                            class="font-bold text-lg mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                            What 3 years of android development taught me the hard way
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:ml-4">
+                            <p class="mr-2">MAY 14 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa horse taped so innocuously outside crud mightily rigorous…</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Load More Button -->
+        <div class="grid grid-cols-9">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div class="col-span-2"><button
+                    class="px-10 bg-[#f6f6f6] mt-16 rounded-sm py-3 shadow-xl tracking-widest font-semibold text-sm mb-4 hover:bg-black hover:text-white">LOAD
+                    MORE</button>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- Fourth Section -->
+        <div class="ml-4 mr-4 md:ml-10">
+            <div class="flex justify-between mt-12">
+                <h1 class="text-xl font-bold">Gadgets</h1>
+                <button class=""><a href="" class="text-[#9e9e9e] text-sm">View All</a></button>
+            </div>
+
+            <div
+                class="grid grid-cols-1 sm:grid-cols-2 sm:gap-5 md:grid-cols-3 md:gap-5 lg:grid-cols-3 lg:gap-5 xl:grid-cols-3 xl:gap-5">
+                <!-- Fourth Image -->
+                <div class="mt-10">
+                    <img src="img/shutterstock_671232430-770x515.jpg" alt=""
+                        class="shadow-xl hover:scale-105 hover:duration-700">
+                    <div class="mt-10">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">GADGETS</a>
+                        <h1
+                            class="font-bold text-lg mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                            Tupac tribute murals and graffiti from around the world
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:mt-10 sm:ml-4">
+                            <p class="mr-2">MAY 15 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa…</p>
+                    </div>
+                </div>
+
+                <!-- Fifth Image -->
+                <div class="mt-10">
+                    <img src="img/Wallions280862-770x515.jpg" alt=""
+                        class="shadow-xl hover:scale-105 hover:duration-700">
+                    <div class="mt-10">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">GADGETS</a>
+                        <h1
+                            class="font-bold text-lg mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                            Tupac tribute murals and graffiti from around the world
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:mt-10 sm:ml-4">
+                            <p class="mr-2">MAY 15 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa…</p>
+                    </div>
+                </div>
+
+                <!-- sixth Image -->
+                <div class="mt-10">
+                    <img src="img/shutterstock_1035324535-770x515.jpg" alt=""
+                        class="shadow-xl hover:scale-105 hover:duration-700">
+                    <div class="mt-10">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">GADGETS</a>
+                        <h1
+                            class="font-bold text-lg mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                            Tupac tribute murals and graffiti from around the world
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:mt-10 sm:ml-4">
+                            <p class="mr-2">MAY 15 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa…</p>
+                    </div>
+                </div>
+
+                <!-- Seventh Image -->
+                <div class="mt-10">
+                    <img src="img/samuel-zeller-356338-unsplash-770x515.jpg" alt=""
+                        class="shadow-xl hover:scale-105 hover:duration-700">
+                    <div class="mt-10">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">GADGETS</a>
+                        <h1
+                            class="font-bold text-lg mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                            Tupac tribute murals and graffiti from around the world
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:mt-10 sm:ml-4">
+                            <p class="mr-2">MAY 15 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa…</p>
+                    </div>
+                </div>
+
+                <!-- Eigth Image -->
+                <div class="mt-10">
+                    <img src="img/Wallions281416-770x515.jpg" alt=""
+                        class="shadow-xl hover:scale-105 hover:duration-700">
+                    <div class="mt-10">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">GADGETS</a>
+                        <h1
+                            class="font-bold text-lg mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                            Tupac tribute murals and graffiti from around the world
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:mt-10 sm:ml-4">
+                            <p class="mr-2">MAY 15 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa…</p>
+                    </div>
+                </div>
+
+                <!-- Ninth Image -->
+                <div class="mt-10">
+                    <img src="img/Wallions281109-770x515.jpg" alt=""
+                        class="shadow-xl hover:scale-105 hover:duration-700">
+                    <div class="mt-10">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">GADGETS</a>
+                        <h1
+                            class="font-bold text-lg mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                            Tupac tribute murals and graffiti from around the world
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:mt-10 sm:ml-4">
+                            <p class="mr-2">MAY 15 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa…</p>
+                    </div>
+                </div>
+            </div>
+            <div class="grid grid-cols-9">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div class="col-span-2"><button
+                        class="px-10 bg-[#f6f6f6] mt-16 rounded-sm py-3 shadow-xl tracking-widest font-semibold text-sm mb-4 hover:bg-black hover:text-white">LOAD
+                        MORE</button>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- Fifth Section -->
+        <div class="ml-4 mr-4 md:ml-10">
+            <div class="flex justify-between mt-12">
+                <h1 class="text-xl font-bold">Marketing</h1>
+                <button class=""><a href="" class="text-[#9e9e9e] text-sm">View All</a></button>
+            </div>
+            <!-- lg:grid-rows-2 -->
+            <div class="grid grid-cols-1 lg:grid lg:grid-cols-2 lg:gap-5">
+                <div class="mt-10 lg:row-span-2">
+                    <!-- Image -->
+                    <img src="img/shutterstock_1035324535-770x515.jpg" alt=""
+                        class="shadow-xl hover:scale-105 hover:duration-700">
+                    <div class="mt-10">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">MARKETING</a>
+                        <h1
+                            class="font-bold text-lg mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                            Tupac tribute murals and graffiti from around the world
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:mt-10 sm:ml-4">
+                            <p class="mr-2">MAY 15 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa…</p>
+                    </div>
+                </div>
+
+                <!-- Double pic section -->
+                <!-- grid-rows-2 -->
+                <div class="grid grid-cols-2 gap-5 mt-10">
+                    <div>
+                        <!-- Image -->
+                        <img src="img/shutterstock_236844463-270x180.jpg" alt=""
+                            class="hover:scale-105 hover:duration-700">
+                        <h1 class="font-semibold">What happens when algorithms design a concert hall?</h1>
+                    </div>
+                    <div>
+                        <img src="img/shutterstock_1113405587-270x180.jpg" alt=""
+                            class="hover:scale-105 hover:duration-700">
+                        <h1 class="font-semibold">How bizarre, colorful balloons took over New York’s parade</h1>
+                    </div>
+                    <div>
+                        <img src="img/shutterstock_1067009249-270x180.jpg" alt=""
+                            class="hover:scale-105 hover:duration-700">
+                        <h1 class="font-semibold">A local’s guide to New York city nightlife and vibrant colors</h1>
+                    </div>
+                    <div>
+                        <img src="img/shutterstock_1033175749-270x180.jpg" alt=""
+                            class="hover:scale-105 hover:duration-700">
+                        <h1 class="font-semibold">Focus on The Lawn to Complete Your Home’s Exterior Design</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sixth Section -->
+        <div class="ml-4 mr-4 md:ml-10">
+            <div class="flex justify-between mt-12">
+                <h1 class="text-xl font-bold">Business</h1>
+                <button class=""><a href="" class="text-[#9e9e9e] text-sm">View All</a></button>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 md:gap-5">
+                <div>
+                    <div class="mt-10">
+                        <!-- Image -->
+                        <img src="img/shutterstock_567695443-770x515.jpg" alt=""
+                            class="shadow-xl hover:scale-105 hover:duration-700">
+                    </div>
+                    <div class="mt-10">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">BUSINESS</a>
+                        <h1
+                            class="font-bold text-lg mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-2xl sm:ml-4">
+                            Is there a relation between organic farming and greenhouse pollution?
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:mt-10 sm:ml-4">
+                            <p class="mr-2">JUL 15 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa horse taped so innocuously outside crud
+                            mightily rigorous…</p>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="mt-10">
+                        <!-- Image -->
+                        <img src="img/Wallions282979-770x515.jpg" alt=""
+                            class="shadow-xl hover:scale-105 hover:duration-700">
+                    </div>
+                    <div class="mt-10">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">BUSINESS</a>
+                        <h1
+                            class="font-bold text-lg mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-2xl sm:ml-4">
+                            How to hack your Virtual Reality Life for Max Efficiency!
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:mt-10 sm:ml-4">
+                            <p class="mr-2">JUL 14 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa horse taped so innocuously outside crud
+                            mightily rigorous…</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Load More Button -->
+            <div class="grid grid-cols-9">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div class="col-span-2"><button
+                        class="px-10 bg-[#f6f6f6] mt-16 rounded-sm py-3 shadow-xl tracking-widest font-semibold text-sm mb-4 hover:bg-black hover:text-white">LOAD
+                        MORE</button>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <!-- Seventh Section -->
+        <div class="ml-4 mr-4 md:ml-10 lg:grid lg:grid-cols-12 lg:gap-5">
+            <!-- Latest Section -->
+            <div class="lg:col-span-8">
+                <div class="flex justify-between mt-12">
+                    <h1 class="text-xl font-bold">Latest</h1>
+                </div>
+
+                <div>
+                    <div>
+                        <!-- Image -->
+                        <img src="img/shutterstock_1133207996-770x515.jpg" alt=""
+                            class="mt-7 shadow-xl hover:scale-105 hover:duration-700">
+                    </div>
+
+                    <div class="mt-5 lg:mt-10 sm:ml-4">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">BUSINESS</a>
+                        <h1
+                            class="font-bold text-xl mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                            How to travel the world and get big companies to pay for it
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:ml-4">
+                            <p class="mr-2">Jul 14 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa horse taped so
+                            innocuously outside crud
+                            mightily rigorous…</p>
+
+                        <p
+                            class="underline mt-5 underline-offset-4 decoration-blue-500 hover:decoration-black lg:ml-5 mb-5 sm:ml-4">
+                            <a href="">Read More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mt-20">
+                    <div>
+                        <!-- Image -->
+                        <img src="img/shutterstock_403236463-770x515.jpg" alt=""
+                            class="mt-7 shadow-xl hover:scale-105 hover:duration-700">
+                    </div>
+
+                    <div class="mt-5 lg:mt-10 sm:ml-4">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">BUSINESS</a>
+                        <h1
+                            class="font-bold text-xl mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                            Selecting a social media marketing strategy is easy  as a pie
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:ml-4">
+                            <p class="mr-2">Jul 14 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa horse
+                            taped so
+                            innocuously outside crud
+                            mightily rigorous…</p>
+
+                        <p
+                            class="underline mt-5 underline-offset-4 decoration-blue-500 hover:decoration-black lg:ml-5 mb-5 sm:ml-4">
+                            <a href="">Read More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="mt-20">
+                    <div>
+                        <!-- Image -->
+                        <img src="img/shutterstock_710135008-770x515.jpg" alt=""
+                            class="mt-7 shadow-xl hover:scale-105 hover:duration-700">
+                    </div>
+
+                    <div class="mt-5 lg:mt-10">
+                        <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">BUSINESS</a>
+                        <h1
+                            class="font-bold text-xl mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                            Photography tip: how to make simple contact sheets in seconds
+                        </h1>
+                        <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:ml-4">
+                            <p class="mr-2">Jul 14 2018</p>
+                            <p>-</p>
+                            <p class="ml-2">5 Mins Read</p>
+                        </div>
+                        <p class="mt-5 text-sm sm:ml-4">More off this less hello salamander lied porpoise much over
+                            tightly circa horse
+                            taped so
+                            innocuously outside crud
+                            mightily rigorous…</p>
+
+                        <p
+                            class="underline mt-5 underline-offset-4 decoration-blue-500 hover:decoration-black lg:ml-5 mb-5">
+                            <a href="">Read More</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- Load More Button -->
+                <div class="relative">
+                    <button
+                        class="absolute right-0 left-0 bg-[#f6f6f6] sm:ml-4 px-10 rounded-sm py-3 shadow-xl tracking-widest font-semibold text-sm mb-4 hover:bg-black hover:text-white">
+                        <a href="">LOAD MORE</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Most Commented Section -->
+            <div class="lg:col-span-4">
+
+                <div>
+                    <div class="flex justify-between mt-32">
+                        <h1 class="text-xl font-bold">Most Commented</h1>
+                        <hr class="pt-3">
+                    </div>
+                    <div class="mt-7">
+                        <!-- Image -->
+                        <img src="img/Wallions281416-770x515.jpg" alt=""
+                            class="shadow-xl hover:scale-105 hover:duration-700">
+                        <div class="mt-5 lg:mt-10">
+                            <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">BUSINESS</a>
+                            <h1
+                                class="font-bold text-xl mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                                What 3 years of android development taught me the hard way
+                            </h1>
+                            <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:ml-4">
+                                <p class="mr-2">Jul 14 2018</p>
+                                <p>-</p>
+                                <p class="ml-2">5 Mins Read</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="mt-7">
+                        <!-- Image -->
+                        <img src="img/Wallions283211-770x515.jpg" alt=""
+                            class="shadow-xl hover:scale-105 hover:duration-700">
+                        <div class="mt-5 lg:mt-10">
+                            <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">GADGETS</a>
+                            <h1
+                                class="font-bold text-xl mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                                Archaeologists may find a hidden tunnel in king Tut’s tomb
+                            </h1>
+                            <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:ml-4">
+                                <p class="mr-2">May 14 2018</p>
+                                <p>-</p>
+                                <p class="ml-2">5 Mins Read</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="mt-7">
+                        <!-- Image -->
+                        <img src="img/shutterstock_1113405587-770x515.jpg" alt=""
+                            class="shadow-xl hover:scale-105 hover:duration-700">
+                        <div class="mt-5 lg:mt-10">
+                            <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">GADGETS</a>
+                            <h1
+                                class="font-bold text-xl mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                                Archaeologists may find a hidden tunnel in king Tut’s tomb
+                            </h1>
+                            <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:ml-4">
+                                <p class="mr-2">May 14 2018</p>
+                                <p>-</p>
+                                <p class="ml-2">5 Mins Read</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="mt-10">
+                        <!-- Image -->
+                        <img src="img/shutterstock_1067009249-770x515.jpg" alt=""
+                            class="shadow-xl hover:scale-105 hover:duration-700">
+                        <div class="mt-5 lg:mt-10">
+                            <a href="#" class="text-blue-600 text-xs font-semibold tracking-wider sm:ml-4">BUSINESS</a>
+                            <h1
+                                class="font-bold text-xl mr-3 mt-3 hover:underline underline-offset-2 hover:decoration-blue-900 lg:text-xl sm:ml-4">
+                                Archaeologists may find a hidden tunnel in king Tut’s tomb
+                            </h1>
+                            <div class="flex text-sm mt-3 text-[#B0ADAE] font-semibold sm:ml-4">
+                                <p class="mr-2">May 14 2018</p>
+                                <p>-</p>
+                                <p class="ml-2">5 Mins Read</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="mt-32 ml-4 mr-4 md:ml-10">
+            <!-- Social Media Icons -->
+            <!-- grid grid-cols-5 -->
+            <div class="ml-4 flex flex-row justify-evenly">
+                <div
+                    class="rounded-full bg-blue-600 text-white text-center w-10 h-10 border-2 hover:bg-[#000] hover:text-white shadow-xl">
+                    <i class="fab fa-facebook-f mt-3"></i>
+                </div>
+                <div
+                    class="rounded-full bg-blue-600 text-white text-center w-10 h-10 border-2 hover:bg-[#000] hover:text-white shadow-xl">
+                    <i class="fa-brands fa-twitter mt-3"></i>
+                </div>
+                <div
+                    class="rounded-full bg-blue-600 text-white text-center w-10 h-10 border-2 hover:bg-[#000] hover:text-white shadow-xl">
+                    <i class="fa-brands fa-instagram mt-2.5"></i>
+                </div>
+                <div
+                    class="rounded-full bg-blue-600 text-white text-center w-10 h-10 border-2 hover:bg-[#000] hover:text-white shadow-xl">
+                    <i class="fab fa-pinterest mt-2.5"></i>
+                </div>
+                <div
+                    class="rounded-full bg-blue-600 text-white text-center w-10 h-10 border-2 hover:bg-[#000] hover:text-white shadow-xl">
+                    <i class="fa-brands fa-dribbble mt-2.5"></i>
+                </div>
+            </div>
+
+            <!-- Link List -->
+            <div class="mt-5">
+                <!-- grid grid-cols-3 sm:grid sm:grid-cols-4 -->
+                <ul
+                    class="gap-3 ml-3 font-semibold text-sm text-center grid grid-cols-3 sm:grid sm:grid-cols-4 lg:flex justify-evenly text-[#161616]">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">MARKETING</a></li>
+                    <li><a href="">GADGETS</a></li>
+                    <li><a href="">BUSINESS</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li></li>
+                    <li class="-mx-3"><a href="">BUY THEME</a></li>
+                </ul>
+            </div>
+
+            <p class="text-center mt-7 text-xs">© 2018 <span class="font-semibold">THEMESPHERE</span>. ALL REGISTERED.
+            </p>
+            <button class="mt-5 pb-10 text-xs absolute right-0 left-0"><i
+                    class="fa-solid fa-angle-up"></i>&nbsp;TOP</button>
+        </footer>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+    <script>
+        var x = document.getElementById("myDiv");
+        $(window).on('load', function () {
+            x.style.display = "none";
+        });
+        function myFunction() {
+            console.log("vhjhvhjv");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+
+        var y = document.getElementById("myDiv_2");
+
+        $(window).on('load', function () {
+                y.style.display = "none";
+            });
+
+        function myFunction_2() {
+                console.log("vhjhvhjv");
+                if (y.style.display === "block") {
+                    y.style.display = "none";
+                } else {
+                    y.style.display = "block";
+                }
+            }
+
+    </script>
+</body>
+
+</html>

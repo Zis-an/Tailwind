@@ -1,0 +1,18 @@
+@media (min-width: 375px) {
+    .s-375 {
+        margin-left: 10px;
+    }
+}
+
+/* .bg { */
+    /* The image used */
+    /* background-image: url("img/Wallions281109-1024x683.jpg"); */
+
+    /* Full height */
+    /* height: 50%; */
+
+    /* Center and scale the image nicely */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */

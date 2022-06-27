@@ -1,0 +1,25 @@
+body {
+    background-color: #FFFFFF;
+}
+
+@media(min-width:1023px) {
+    .mbl-device {
+        display: none;
+    }
+}
+
+#myDiv {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+
+#myDiv_2 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
